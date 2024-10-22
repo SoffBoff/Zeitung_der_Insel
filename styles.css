@@ -1,8 +1,10 @@
 body {
     font-family: 'Times New Roman', serif;
+    background-image: url('images/zeitungshintergrund.png'); /* Replace with your image path */
+    background-size: cover; /* Makes sure the image covers the entire background */
+    background-position: center; /* Centers the image */
     background-color: #000000;
     color: #ffffff;
-}
 
 header {
     background-color: #333366;
