@@ -1,0 +1,40 @@
+body {
+    font-family: 'Garamond', serif;
+    background-color: #0b293f;
+    color: #c6cdff;
+}
+
+header {
+    background-color: #0f4955;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner {
+    width: 100%; /* Makes the image full width */
+    height: auto; /* Maintains the aspect ratio */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav a {
+    color: #c6cdff;
+    text-decoration: none;
+    margin: 0 15px;
+}
+
+section {
+    margin: 20px;
+    padding: 20px;
+    background-color: #0f4955;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #248bd6;
+}
