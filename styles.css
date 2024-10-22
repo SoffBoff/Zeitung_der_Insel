@@ -13,8 +13,13 @@ header {
 }
 
 .banner {
-    width: 100%; /* Makes the image full width */
-    height: auto; /* Maintains the aspect ratio */
+    background-image: url('cov_cover.jpg');
+    background-size: cover;
+    background-color: #000000;
+    color: white;
+    height: 400px;
+    text-align: center;
+    padding: 20px;
 }
 
 nav ul {
