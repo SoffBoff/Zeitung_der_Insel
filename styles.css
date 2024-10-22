@@ -1,11 +1,11 @@
 body {
-    font-family: 'Garamond', serif;
-    background-color: #0b293f;
-    color: #c6cdff;
+    font-family: 'Times New Roman', serif;
+    background-color: #000000;
+    color: #ffffff;
 }
 
 header {
-    background-color: #0f4955;
+    background-color: #333366;
     padding: 20px;
     text-align: center;
 }
@@ -21,7 +21,7 @@ nav ul {
 }
 
 nav a {
-    color: #c6cdff;
+    color: #ffffff;
     text-decoration: none;
     margin: 0 15px;
 }
@@ -29,7 +29,7 @@ nav a {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #0f4955;
+    background-color: #333366;
     border-radius: 10px;
 }
 
