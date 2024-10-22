@@ -20,12 +20,33 @@ header {
 nav ul {
     list-style: none;
     padding: 0;
+    display: flex; /* Use flexbox to align items horizontally */
+    justify-content: center; /* Center the menu items horizontally */
+    margin: 0;
+}
+
+nav li {
+    margin: 0 15px; /* Adds spacing between menu items */
 }
 
 nav a {
     color: #ffffff;
     text-decoration: none;
     margin: 0 15px;
+}
+
+nav a:hover {
+    color: #00ff00; /* Optional: Change the color of the link when hovered */
+}
+
+/* Make headings larger on hover */
+h2 {
+    transition: transform 0.3s ease, color 0.3s ease; /* Smooth animation */
+}
+
+h2:hover {
+    transform: scale(1.2); /* Increases heading size on hover */
+    color: #00ff00; /* Optional: Change heading color on hover */
 }
 
 section {
