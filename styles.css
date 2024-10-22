@@ -1,13 +1,13 @@
 body {
     font-family: 'Times New Roman', serif;
-    background-image: url('images/zeitungshintergrund.png'); /* Replace with your image path */
+    background-image: url('images/darkwater.jpg'); /* Replace with your image path */
     background-size: cover; /* Makes sure the image covers the entire background */
     background-position: center; /* Centers the image */
     background-color: #000000;
     color: #ffffff;
 
 header {
-    background-color: #333366;
+    background-color: #000000;
     padding: 20px;
     text-align: center;
 }
@@ -31,12 +31,12 @@ nav a {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #333366;
+    background-color: #000000;
     border-radius: 10px;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: #248bd6;
+    background-color: #000000;
 }
