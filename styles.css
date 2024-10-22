@@ -31,7 +31,7 @@ nav a {
 section {
     margin: 20px;
     padding: 20px;
-    background-color: #000000;
+    background-color: rgba(0, 46, 78, 0.7);
     border-radius: 10px;
 }
 
