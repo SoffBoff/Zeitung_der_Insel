@@ -36,7 +36,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #00ff00; /* Optional: Change the color of the link when hovered */
+    color: #e1d8ff; /* Optional: Change the color of the link when hovered */
 }
 
 /* Make headings larger on hover */
@@ -46,7 +46,7 @@ h2 {
 
 h2:hover {
     transform: scale(1.2); /* Increases heading size on hover */
-    color: #00ff00; /* Optional: Change heading color on hover */
+    color: #e1d8ff; /* Optional: Change heading color on hover */
 }
 
 section {
