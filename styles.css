@@ -45,7 +45,6 @@ h2 {
 }
 
 h2:hover {
-    transform: scale(1.2); /* Increases heading size on hover */
     color: #e1d8ff; /* Optional: Change heading color on hover */
 }
 
