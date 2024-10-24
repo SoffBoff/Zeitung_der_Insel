@@ -6,6 +6,41 @@ body {
     background-color: #000000;
     color: #ffffff;
 
+.gallery-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.gallery-image {
+    width: 80%; /* Adjust as needed */
+    height: auto; /* Maintains aspect ratio */
+    border-radius: 10px; /* Optional: add rounded corners */
+}
+
+.arrow {
+    background-color: rgba(0, 46, 78, 0.5);
+    border: none;
+    color: #ffffff;
+    font-size: 24px; /* Adjust size */
+    cursor: pointer;
+    padding: 10px;
+    border-radius: 5px; /* Optional: rounded edges */
+}
+
+.arrow:hover {
+    background-color: rgba(0, 46, 78, 0.8); /* Darker on hover */
+}
+
+.arrow.left {
+    margin-right: 10px; /* Space between arrow and image */
+}
+
+.arrow.right {
+    margin-left: 10px; /* Space between arrow and image */
+}
+
     /* Profile image in a circle */
 .profile-image {
     width: 150px; /* Set the desired size of the profile image */
