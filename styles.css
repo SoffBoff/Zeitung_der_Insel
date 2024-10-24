@@ -6,6 +6,16 @@ body {
     background-color: #000000;
     color: #ffffff;
 
+    /* Profile image in a circle */
+.profile-image {
+    width: 150px; /* Set the desired size of the profile image */
+    height: 150px; /* Make sure the height matches the width for a perfect circle */
+    border-radius: 50%; /* Turns the square image into a circle */
+    object-fit: cover; /* Ensures the image fits inside the circle */
+    display: block;
+    margin: 0 auto 20px auto; /* Centers the image and adds spacing below */
+}
+
 header {
     background-color: #000000;
     padding: 20px;
