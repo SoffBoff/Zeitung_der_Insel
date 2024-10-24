@@ -58,5 +58,25 @@
     <footer>
         <p>&copy; 2024 Zeitung. All rights reserved.</p>
     </footer>
+    
+    <script>
+    const images = [
+        'images/image1.jpg',
+        'images/image2.jpg',
+        'images/image3.jpg' // Add more images as needed
+    ];
+
+    let currentImageIndex = 0;
+
+    function changeImage(direction) {
+        currentImageIndex += direction;
+        if (currentImageIndex < 0) {
+            currentImageIndex = images.length - 1; // Loop to last image
+        } else if (currentImageIndex >= images.length) {
+            currentImageIndex = 0; // Loop to first image
+        }
+        document.getElementById('galleryImage').src = images[currentImageIndex];
+    }
+  </script>
 </body>
 </html>
