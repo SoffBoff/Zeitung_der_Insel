@@ -74,6 +74,11 @@
         }
         document.getElementById('galleryImage').src = images[currentImageIndex];
     }
+
+    // Set the initial image when the page loads
+    window.onload = function() {
+      document.getElementById('galleryImage').src = images[currentImageIndex];
+    };
   </script>
 </body>
 </html>
